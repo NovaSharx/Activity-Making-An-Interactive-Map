@@ -1,3 +1,49 @@
+body {
+    margin: 0em 1em;
+    background-color: tan;
+}
+
+h1 {
+    text-align: center;
+}
+
+#selector-interface {
+    display: flex;
+    background-color: rgb(104, 78, 45);
+    border-radius: 20px;
+    min-height: 300px;
+}
+
+#selections-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.selection {
+    display: flex;
+    margin: 1em;
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: grey;
+    color: white;
+    font-size: 3em;
+    justify-content: center;
+}
+
+.selection:hover {
+    cursor: pointer;
+    border-color: rgb(28, 183, 255);
+}
+
+#map-container {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
 #map {
     height: 80vh;
+    width: 80vw;
 }

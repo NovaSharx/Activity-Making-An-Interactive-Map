@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,17 +14,23 @@
     <link rel="stylesheet" href="./styles.css">
     <title>Making An Interactive Map</title>
 </head>
+
 <body>
     <h1>Tailored Travel</h1>
-    <div id="select-interface">
-        <div id = selections>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+    <div id="selector-interface">
+        <div id=selections-list>
+            <div id="coffee" class="selection">Coffee</div>
+            <div id="restaurant" class="selection">Restaurant</div>
+            <div id="hotel" class="selection">Hotel</div>
+            <div id="market" class="selection">Market</div>
         </div>
     </div>
-    <div id="map"></div>
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
+    <script src="./map.js"></script>
+    <script src="./operations.js"></script>
     <script src="./index.js"></script>
 </body>
+
 </html>
