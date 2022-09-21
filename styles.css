@@ -5,13 +5,17 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 5em;
+    color: white;
 }
 
 #selector-interface {
     display: flex;
     background-color: rgb(104, 78, 45);
     border-radius: 20px;
-    min-height: 300px;
+    min-height: 200px;
+    width: 80vw;
+    margin: auto;
 }
 
 #selections-list {
@@ -29,12 +33,53 @@ h1 {
     background-color: grey;
     color: white;
     font-size: 3em;
+    align-items:center;
     justify-content: center;
 }
 
 .selection:hover {
     cursor: pointer;
-    border-color: rgb(28, 183, 255);
+}
+
+#coffee {
+    background-color: rgb(255, 28, 28);
+    filter: saturate(50%);
+}
+#coffee:hover {
+    filter: saturate(100%);
+}
+
+#restaurant {
+    background-color: rgb(36, 255, 28);
+    filter: saturate(50%);
+}
+#restaurant:hover {
+    filter: saturate(100%);
+}
+
+#hotel {
+    background-color: rgb(28, 183, 255);
+    filter: saturate(50%);
+}
+#hotel:hover {
+    filter: saturate(100%);
+}
+
+#market {
+    background-color: rgb(217, 221, 0);
+    filter: saturate(50%);
+}
+#market:hover {
+    filter: saturate(100%);
+}
+
+#clear {
+    text-align: center;
+    background-color: rgb(138, 138, 138);
+    filter: brightness(75%);
+}
+#clear:hover {
+    filter: brightness(100%);
 }
 
 #map-container {
